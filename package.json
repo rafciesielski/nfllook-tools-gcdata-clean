@@ -1,0 +1,23 @@
+{
+  "name": "nfllook-tools-gcdata-clean",
+  "version": "0.0.1",
+  "description": "Clean nfl.com Game Center Data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js F:/Data/NFLGameData/2016",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafciesielski/nfllook-tools-gcdata-clean.git"
+  },
+  "author": "rafciesielski",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rafciesielski/nfllook-tools-gcdata-clean/issues"
+  },
+  "homepage": "https://github.com/rafciesielski/nfllook-tools-gcdata-clean#readme",
+  "dependencies": {
+    "recursive-readdir": "^2.1.0"
+  }
+}
