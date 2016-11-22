@@ -4,7 +4,7 @@
   "description": "Clean nfl.com Game Center Data",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js F:/Data/NFLGameData/2016",
+    "clean": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
