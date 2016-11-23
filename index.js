@@ -29,6 +29,7 @@ function cleanGame(id, data, dirName) {
     var gameData = gameJson[id];
     delete gameData.drives;
     delete gameData.scrsummary;
+    cleanNames(gameData);
     cleanTeam(gameData.home.stats);
     cleanTeam(gameData.away.stats);
 
@@ -39,6 +40,15 @@ function cleanGame(id, data, dirName) {
         }
         console.log("Done: " + path);
     });
+}
+
+function cleanNames(gameData) {
+    if(gameData.home.abbr == 'JAC') {
+        gameData.home.abbr = 'JAX';
+    }
+    if(gameData.away.abbr == 'JAC') {
+        gameData.away.abbr = 'JAX';
+    }
 }
 
 function cleanTeam(team) {
