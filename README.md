@@ -1,7 +1,7 @@
 # nfllook-tools-gcdata-clean
 Clean nfl.com Game Center Data
 
-## Prerequisite:
+## Prerequisites:
 1. node.js
 2. NFL Game data directory: $NFLGameData_Dir
 
