@@ -4,4 +4,3 @@ if(process.argv[2] == null) {
 }
 
 require('./clean_games');
-require('./clean_schedules');
